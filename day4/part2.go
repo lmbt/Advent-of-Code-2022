@@ -50,7 +50,7 @@ func main() {
 			//fmt.Printf(" B contains A at line %d\n", index)
 			problemPairs++
 
-			// If A partially contains B
+			// If A partially contains B or B partially contains A
 		} else if (aStart <= bStart && bStart <= aEnd) || (bStart <= aStart && aStart <= bEnd) {
 			problemPairs++
 		}
